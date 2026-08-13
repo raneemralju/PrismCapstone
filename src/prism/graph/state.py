@@ -1,7 +1,6 @@
 from typing import TypedDict
 
-from backend.schemas.assessments import AgentAssessment, SynthesisResult
-
+from prism.schemas.assessments import AgentAssessment, SynthesisResult
 
 class PRISMState(TypedDict):
     project_idea: str
